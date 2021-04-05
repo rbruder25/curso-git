@@ -184,7 +184,7 @@ namespace Primeiro
             double areaX = Math.Sqrt(p * (p - x.A) * (p - x.B) * (p - char.C));
             p = (y.A + y.B + y, C);
             double areaY = Math.Sqrt(p*(p-y.A)*(p-y.B)*(p-y.C))
-            Console.WriteLine("Acresentada a mensagem nova");
+            Console.WriteLine("Acresentada a mensagem nova para teste");
 
         }
     }
