@@ -169,12 +169,14 @@ namespace Primeiro
 
             Console.WriteLine("Entre com as medidas do trigulo X : ");
             x.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
             x.B    = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             x.C    = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             Console.WriteLine("Entre com as medidas do trigulo Y : ");
             y.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             y.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
             y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
 
@@ -182,6 +184,8 @@ namespace Primeiro
             double areaX = Math.Sqrt(p * (p - x.A) * (p - x.B) * (p - char.C));
             p = (y.A + y.B + y, C);
             double areaY = Math.Sqrt(p*(p-y.A)*(p-y.B)*(p-y.C))
+            Console.WriteLine("Acresentada a mensagem nova");
+
         }
     }
 }
